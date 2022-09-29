@@ -50,9 +50,8 @@ public class App {
        System.out.println("Please enter unit: ");
        unit = scan.next();
     }
-    System.out.println("Thank You!");
-    
-    
+    scan.close();
+
     }
        
        public static double miToKm(double a){
